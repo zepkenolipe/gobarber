@@ -10,7 +10,8 @@
     "typeorm": "ts-node-dev -r tsconfig-paths/register ./node_modules/typeorm/cli.js",
     "test": "jest",
     "typeorm:migrate": "npx typeorm-ts-node-commonjs migration:run -d ./src/data-source.ts",
-    "typeorm:generate": "npx typeorm-ts-node-commonjs migration:generate -d ./src/data-source.ts -n"
+    "typeorm:generate": "npx typeorm-ts-node-commonjs migration:generate -d ./src/data-source.ts -n",
+    "typeorm:show": "npx typeorm-ts-node-commonjs migration:show -d ./src/data-source.ts"
   },
   "dependencies": {
     "aws-sdk": "^2.1692.0",
